@@ -1,0 +1,92 @@
+.heading {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.cart1 {
+  border: 3px solid rgba(103, 4, 16, 0.2);
+  padding: 5px;
+  color: blue;
+  font-size: 20px;
+}
+
+.cart2 {
+  border: 3px solid rgba(10, 210, 63, 0.2);
+  padding: 10px;
+  color: green;
+  font-size: 20px;
+}
+
+.cart3 {
+  border: 2px solid rgba(109, 143, 118, 0.2);
+  padding: 5px;
+}
+.two-column-container {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+img {
+  width: 240px;
+  height: 125px;
+  border-radius: 15px;
+}
+.price-category {
+  display: flex;
+  justify-content: space-between;
+}
+.item-name {
+  color: #0d6efd;
+  font-family: "roboto";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.item-price {
+  color: orange;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.offer-image {
+  width: 100%;
+  height: 160px;
+}
+
+img {
+  width: 100%;
+  height: 150px;
+}
+h4 {
+  font-family: "roboto";
+  font-size: 25px;
+  font-weight: 600;
+}
+button {
+  background-color: blue;
+  margin-top: 8px;
+  color: white;
+}
+.logo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.contact-heading {
+  font-family: "roboto";
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(51, 50, 50);
+}
+.contact-paragraph {
+  font-family: "roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(85, 83, 83);
+}
+
+ul {
+  font-family: "roboto";
+  font-size: 16px;
+  font-weight: 300;
+}

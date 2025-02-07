@@ -1,0 +1,52 @@
+.heading {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+.cart1 {
+  border: 3px solid rgba(103, 4, 16, 0.2);
+  padding: 5px;
+  color: blue;
+  font-size: 20px;
+}
+
+.cart2 {
+  border: 3px solid rgba(10, 210, 63, 0.2);
+  padding: 10px;
+  color: green;
+  font-size: 20px;
+}
+.two-column-container {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.three-column-container {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: 150px;
+}
+.about-description {
+  font-size: 16px;
+  font-family: "roboto";
+  font-weight: 400;
+}
+h5 {
+  font-size: 20px;
+  font-family: "roboto";
+  font-weight: 600;
+}
+p {
+  font-size: 16px;
+  font-family: "roboto";
+  font-weight: 400;
+}
+
+.image-chart {
+  width: 100%;
+  height: 210px;
+}

@@ -1,0 +1,23 @@
+.faculty-card {
+  /* Add your styles here */
+  width: 200px;
+  margin: 15px;
+  padding: 8px;
+  border: 1px solid gray;
+}
+
+.card-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.heading {
+  color: blue;
+  margin: 25px;
+  text-align: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

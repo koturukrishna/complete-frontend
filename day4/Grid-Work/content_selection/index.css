@@ -1,0 +1,63 @@
+.heading {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+.cart1 {
+  border: 3px solid rgba(103, 4, 16, 0.2);
+  padding: 5px;
+  font-size: 20px;
+}
+
+.cart2 {
+  border: 3px solid rgba(10, 210, 63, 0.2);
+  padding: 10px;
+  font-size: 20px;
+}
+.two-column-container {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.main-image {
+  width: 100%;
+  height: 230px;
+}
+
+.main-heading {
+  font-family: "roboto";
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.paragraph {
+  font-family: "roboto";
+  font-size: 16px;
+}
+.latest-news {
+  font-family: "roboto";
+  font-size: 16px;
+}
+.footer-part {
+  padding: 5px;
+  background-color: rgb(5, 5, 41);
+}
+.bottom-part {
+  color: white;
+  font-family: "roboto";
+  font-size: 16px;
+  font-weight: lighter;
+}
+.footer-list {
+  list-style-type: none;
+}
+.img-section {
+  width: 100%;
+  height: 150px;
+}
+.heading-section {
+  margin-top: 6px;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "roboto";
+}

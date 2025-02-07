@@ -1,0 +1,74 @@
+.main-container {
+  padding: 15px;
+  background-color: lightgray;
+}
+.first-conatiner {
+  /* margin: 20px; */
+
+  margin: 20px;
+  padding: 5px;
+  background-color: rgb(118, 181, 236);
+  border: 2px solid green;
+}
+.heading1 {
+  color: blue;
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 25px;
+}
+.paragraph1 {
+  color: rgb(28, 32, 30);
+  font-family: roboto;
+  font-size: 15px;
+}
+
+.second-container {
+  border: 2px solid orange;
+  padding: 15px;
+  margin: 20px;
+  background-color: aqua;
+}
+
+.heading2 {
+  color: rgb(147, 207, 34);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+.paragraph2 {
+  color: rgb(150, 24, 77);
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.third-container {
+  border: 2px solid rgb(12, 27, 163);
+  padding: 18px;
+  margin: 20px;
+  background-color: rgb(135, 197, 197);
+}
+
+.heading3 {
+  color: rgb(10, 74, 134);
+  font-family: Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+.paragraph3 {
+  color: rgb(68, 12, 35);
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.span1 {
+  display: inline;
+  color: green;
+  font-size: 16px;
+  font-weight: 600;
+}
+.span2 {
+  display: block;
+  color: blueviolet;
+  font-size: 18px;
+  font-weight: 650;
+  text-decoration: underline;
+}

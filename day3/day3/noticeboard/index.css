@@ -1,0 +1,54 @@
+.card4 {
+  margin: 15px;
+  width: 50vw;
+  display: flex;
+  padding: 15px;
+  list-style-type: circle;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+  color: blue;
+  font-family: "roboto";
+  margin: 15px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  /* border: 1px solid blue; */
+}
+ul {
+  list-style-type: numbers;
+}
+
+.bg-card1 {
+  background-color: aquamarine;
+}
+
+.bg-card3 {
+  background-color: rgb(121, 65, 173);
+}
+
+.bg-card2 {
+  background-color: rgb(155, 231, 104);
+}
+.lunch-row {
+  background-color: aqua;
+  text-align: center;
+}
+
+.class-table {
+  color: blue;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}

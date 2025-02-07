@@ -1,0 +1,16 @@
+* {
+  margin: 1px;
+  padding: 4px;
+  font-family: "roboto";
+}
+
+.heading1 {
+  font-size: 18px;
+  font-family: "roboto";
+  color: blue;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-family: "roboto";
+}

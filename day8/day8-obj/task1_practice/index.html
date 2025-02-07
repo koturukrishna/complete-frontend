@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    // Primitives (Single Values)
+    let movieName = "Sankrathi Vastunam"; // String
+    let rating = 4.5; // Number
+    let isBlockbuster = true; // Boolean
+    console.log(movieName, rating, isBlockbuster);
+    // Non-Primitives (Objects/Collections)
+    let movie = {
+      name: "Daku Maharaj",
+      genre: "Action",
+    }; // Object
+
+    let showTimes = ["10AM", "2PM", "6PM"]; // Array
+    console.log("Non Primitive Datatypes:", movie, showTimes);
+
+    let myMovie = {
+      name: "KGF",
+      actors: ["Yash", "Shreenidi"],
+      director: "Prashanth Neel",
+      rating: 4.9,
+      is3D: false,
+    };
+
+    // creating the object in different ways:
+
+    let movie1 = {
+      name: "Bhahubli2",
+      director: "Rajamouli",
+      budget: "600Cr",
+    };
+
+    let movie2 = {};
+    movie2.name = "Pushpa2";
+    movie2.director = "Sukumar";
+
+    let movie3 = Object.create(movie2);
+    movie3.name = "Akhanda";
+    console.log(movie3);
+
+    // Array creation
+
+    let array1 = [8, 28, 33, 48];
+    let array2 = new Array(28, 92, 88, 48);
+    let array3 = Array.from("AB123CDEF");
+
+    console.log("Array2", array2);
+    console.log("Array3", array3);
+  </script>
+  <body>
+    <div>
+      <h5>Datatypes in js</h5>
+    </div>
+  </body>
+</html>

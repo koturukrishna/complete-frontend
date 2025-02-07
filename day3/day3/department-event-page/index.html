@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Department Event Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div>
+            <a class="navbar-brand" href="#">ATI college</a>
+            <a href="" class="navbar-brand">CSE Department</a>
+            <!-- <a class="navbar-brand" href="#">CSE Department</a> -->
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNav"
+            style="margin-left: 400px"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Abouts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Department</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Achievements</a>
+              </li>
+              <li>
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt=""
+                  width="120px"
+                  height="45px"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="event-container">
+      <div>
+        <h4 style="text-align: center">Events</h4>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgQxkOSjzv7aKqCEZQTfojmnU1LBTPQRcvdQ&s"
+                class="d-block img2"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYLsLIrhQCyJjkMhcCpl3tNr_42zcHwzsmEg&s"
+                class="d-block img2"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN09Iq6_qa0tTDSYp5cQd_E6YYV9WfgpWd4g&s"
+                class="d-block img2"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container activities-card">
+        <div class="row">
+            <div class="col">
+                <h5>Technical Events</h5>
+                <div class="carousel-item active">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYLsLIrhQCyJjkMhcCpl3tNr_42zcHwzsmEg&s"
+                      class="d-block img3"
+                      alt="..."
+                    />
+            </div>
+        </div>
+
+        <div class="col">
+            <h5>Cultural Events</h5>
+            <div class="carousel-item active">
+                <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN09Iq6_qa0tTDSYp5cQd_E6YYV9WfgpWd4g&s"
+                class="d-block img3"
+                alt="..."
+              />
+        </div>
+    </div>
+    </div>
+
+    <div class="form-container">
+      <div>  
+        <h5>Registration Form</h5>
+        <form style="width: 35vw;">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Class/Branch</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <label for="">Event Selection</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Event Selection</option>
+              <option value="1">Yes</option>
+              <option value="2">No</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary custom-button">Submit</button>
+          </form></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

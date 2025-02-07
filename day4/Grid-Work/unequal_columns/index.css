@@ -1,0 +1,37 @@
+.heading {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+.cart1 {
+  border: 3px solid rgba(103, 4, 16, 0.2);
+  padding: 5px;
+  color: blue;
+  font-size: 20px;
+}
+
+.cart2 {
+  border: 3px solid rgba(10, 210, 63, 0.2);
+  padding: 10px;
+  color: green;
+  font-size: 20px;
+}
+.two-column-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.three-column-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  color: #0d6efd;
+  font-family: "roboto";
+  font-size: 21px;
+}
+p {
+  font-family: "roboto";
+  font-size: 16px;
+}

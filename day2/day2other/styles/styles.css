@@ -1,0 +1,43 @@
+* {
+  padding: 3px;
+  margin: 0px;
+}
+
+.container {
+  margin: 10px;
+  padding: 15px;
+  width: 260px;
+  height: 260px;
+  border: 1px solid #c9bdbd;
+  border-radius: 10px;
+  box-shadow: 15px 0 15px -10px rgba(211, 205, 205, 0.75);
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heading {
+  color: blue;
+  font-size: 40px;
+  font-family: "roboto";
+  text-align: center;
+}
+
+img {
+  width: 240px;
+  height: 200px;
+  border-radius: 15px;
+}
+.price-category {
+  display: flex;
+  justify-content: space-between;
+}
+.item-name {
+  color: blue;
+  font-family: "roboto";
+}
+
+.item-price {
+  color: orange;
+}

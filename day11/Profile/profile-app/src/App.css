@@ -1,0 +1,97 @@
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.main-title {
+  text-align: center;
+}
+
+.top-div {
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 85%;
+}
+
+.btn-style {
+  height: 40px;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: center;
+  border-radius: 45px;
+  margin-right: 18px;
+}
+
+.profile-card {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-cart {
+  padding: 8px;
+}
+
+.like-comment-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.like-icons5 {
+}
+
+.small-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 85%;
+}
+
+.bottom-section {
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-name {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.impressions {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.you {
+  font-size: 12px;
+}
+
+.view-more {
+  color: #2196f3;
+  font-weight: 600;
+}
+
+.heading {
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
+}
+.post-title {
+  font-weight: 600;
+}
+.icon-combine {
+  margin-right: -15px;
+}

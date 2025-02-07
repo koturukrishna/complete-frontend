@@ -1,0 +1,27 @@
+.img2 {
+  width: 60vw;
+  height: 260px;
+}
+.event-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activities-card {
+  margin: 15px;
+}
+
+img3 {
+  width: 400px;
+  height: 260px;
+}
+.custom-button {
+  margin-top: 6px;
+}
+.form-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
