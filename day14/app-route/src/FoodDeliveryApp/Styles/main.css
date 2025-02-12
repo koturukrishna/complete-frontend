@@ -1,0 +1,258 @@
+.home-restaurant-image {
+  width: 90%;
+  height: 100%;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-size: 40px;
+  font-family: roboto;
+}
+
+.home-description {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 15px;
+}
+.home-section {
+  height: 100vh;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.restaurantcard-details {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.restaurant-detail-img {
+  width: 550px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.restaurant-info {
+  display: flex;
+}
+.restaurant-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu-item-image {
+  width: 210px;
+  height: 200px;
+}
+
+.restaurantcard {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  /* transition: box-shadow 0.3s ease-in-out; */
+  border: "2px solid  green";
+}
+
+.restaurantcard :hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border: "2px solid  green";
+}
+
+.menuitem-card {
+  display: flex;
+  margin: 5px;
+}
+.cartitem-card-cart {
+  width: 600px;
+  padding: 20px 30px;
+  display: flex;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuitem-info {
+  margin-left: 25px;
+}
+.restaurant-heading {
+  text-align: center;
+}
+
+.cart-item-image {
+  width: 150px;
+  height: 130px;
+}
+.cartitem-card {
+  margin: 10px;
+}
+.cart-value {
+  position: relative;
+  top: -50px;
+  left: 55px;
+  color: green;
+}
+
+.header-navbar {
+  background-color: #e3f2fd;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link-item {
+  margin-right: 50px;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+.active-link {
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 50px;
+}
+
+.nav-links {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-name {
+  color: #2c3e50; /* Dark Blueish Gray */
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.rating-reviews {
+  color: #2c3e50;
+}
+
+.rest-name {
+  color: #2c3e50; /* Dark Blueish Gray */
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.menucard-item {
+}
+
+.item-description {
+  color: #1e293b;
+}
+.add-button {
+  border: 1px solid gold;
+  background-color: gold;
+
+  color: white;
+  border-radius: 5px;
+}
+.cart-list-items {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-remove-header {
+  margin-top: 25px;
+  width: 600px;
+  display: flex;
+  flex-direction: "row";
+  justify-content: space-between;
+}
+.cart-remove-btn {
+  color: #0967d2;
+  width: 110px;
+  padding: 5px;
+  font-weight: bold;
+  box-shadow: 2px solid transparent;
+  background-color: transparent;
+  border: none;
+  display: flex-end;
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 32px;
+}
+
+.searchInput {
+  width: 450px;
+}
+.food-delivery-app {
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+.logout-desktop-btn {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 12px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.cart-count-badge {
+  background-color: #bfdbfe;
+  color: #0967d2;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  margin-left: 8px;
+  position: relative;
+  top: -10px;
+}
